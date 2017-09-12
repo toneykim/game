@@ -1,0 +1,103 @@
+* {
+	margin: 0 ;
+	padding: 0;
+
+}
+
+body{
+	font-family: arial, sans-serif;
+}
+
+main{
+	width: 1800px;
+	height: 1000px;
+
+}
+
+
+
+
+header figure{
+	width: 400px;
+	height: 400px;
+	overflow: hidden;
+	display: inline-block;
+	background: grey;
+	margin: 20px 0 0 20px;
+
+
+}
+
+#stark{
+	
+	height: 410px;
+	position: relative;
+	right: 175px
+}	
+
+
+
+#fire{
+	height: 410px;
+	position: relative;
+	right: 160px;
+}	
+
+
+#hear{
+	height: 420px;
+	position: relative;
+	right: 160px;
+	
+
+}
+
+#house{
+
+	height: 400px;
+	position: relative;
+	right: 170px
+}	
+
+
+article {
+	height: 400px;
+	width: 1000px;
+	border: 3px solid black;
+	//background: grey;
+	margin: 50px auto;
+}
+
+
+article p {
+
+
+	position: relative;
+	top: -10px;
+	left: 5px;
+	font-size: 20px;
+	font-weight: 700;
+	width: 150px;
+	background: white;
+	text-align: center;
+}
+
+
+article section p{
+
+	width: 950px;
+	text-align: left;
+	font-size: 20px;
+	font-weight: 700;
+	padding: 0 0 0 10px;
+	margin: 10px 0;
+
+
+}
+
+
+article section p:last-child {
+
+	margin: 100px 0 0 0 ;
+
+}
